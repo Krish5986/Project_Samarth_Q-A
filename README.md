@@ -1,8 +1,4 @@
-That is the perfect final step\! A clear **`README.md`** is essential for presenting your project and demonstrating that you met the evaluation criteria, especially for **System Architecture** and **Design Choices**.
 
-Here is a complete structure for your GitHub `README.md` file. You can copy and paste this and fill in the specifics from your working application.
-
------
 
 # Project Samarth Q\&A Prototype: Climate & Agriculture Synthesis
 
