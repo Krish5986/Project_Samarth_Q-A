@@ -92,8 +92,8 @@ def answer_question_1(df,state_x , state_y,n_years,crop_type_c,m_crops):
         higher_state = "Neither"
     response += f" *Conclusion: *{higher_state} recorded the higher average rainfall over the period .\n\n"
     response += f"2. Top {m_crops} {crop_type_c} Crops by Production Volume:\n"
-    response += f"   - **{state_x}:**{crops_x}\n"
-    response += f"   - **{state_y}:**{crops_y}\n\n"
+    response += f"   - **{state_x}:** {crops_x}\n"
+    response += f"   - **{state_y}:** {crops_y}\n\n"
     response += f"**Data Source Citattion:** All data synthesized from the integrated master dataset from the Ministry of Agriculture & Farmer Welfate and the India Meteorlogical Department (IMD) from the data.gov.in portal."
     return response
 
@@ -331,4 +331,5 @@ with st.container():
 if st.button('Answer Question 4: Generate Policy Arguments' ):
     with st.spinner(f'Synthesizing policy arguments for {crop_a_input} vs {crop_b_input} in {region_y_input}...'):
         final_answer = answer_question_4(master_df, region_y_input, crop_a_input, crop_b_input, n_years_q4_input)
+
         st.markdown(final_answer)
