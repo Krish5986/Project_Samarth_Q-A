@@ -47,7 +47,7 @@ The system uses specific functions to answer complex, multi-part questions:
 1.  **Clone the Repository:**
     ```bash
     git clone https://github.com/Krish5986/Project_Samarth_Q_and_A
-    cd Project_Samarth_QnA
+    cd Project_Samarth_Q_and_A
     ```
 2.  **Create Environment & Install Dependencies:**
       * *Note: This assumes you have Python 3.10+ installed.*
