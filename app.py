@@ -83,7 +83,7 @@ def answer_question_1(df,state_x , state_y,n_years,crop_type_c,m_crops):
     response = f"--- Analysis for Last {n_years} Years --\n\n"
     response += f"1.Average Annual Rainfall Comparison: \n"
     response += f"  - **{state_x}:** {rainfall_x} mm\n"
-    response += f"  - **{state_y}:**{rainfall_y} mm\n"
+    response += f"  - **{state_y}:** {rainfall_y} mm\n"
     if rainfall_x > rainfall_y:
         higher_state = state_x
     elif rainfall_y > rainfall_x:
@@ -333,3 +333,4 @@ if st.button('Answer Question 4: Generate Policy Arguments' ):
         final_answer = answer_question_4(master_df, region_y_input, crop_a_input, crop_b_input, n_years_q4_input)
 
         st.markdown(final_answer)
+
